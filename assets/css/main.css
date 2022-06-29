@@ -50,6 +50,7 @@ img{
     border-radius: 0 .5rem;
     color: var(--color-white);
     border: none;
+    cursor: pointer;
 }
 
 .container{
@@ -64,29 +65,14 @@ img{
     text-align: center;   
 }
 
-
-
-
-.form-floating{
-    color: var(--color-white-light)!important;
+.card-content {
+    display: grid;
 }
-
-.form-floating .form-control{
-    background-color: var(--color-black-ligh);
-    color: var(--color-white-light);
-}
-
-
-.img-project{
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-
-/*form -contact*/
-.form-contact{
-    max-width: 400px;
-    margin: 0 auto;
+@media screen and (min-width:1024px) {
+    .card-content{
+        display: grid;
+        grid-template-columns: 50% 1fr ;
+    }
 }
 
 

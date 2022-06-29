@@ -1,0 +1,26 @@
+.colaborate-content{
+    padding: 1rem 0 2rem 0;
+}
+
+.card-project {
+    padding-bottom: 2rem;
+}
+.card-project h3{
+    color: var(--color-primary);
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.img-project{
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+.img-project img{
+    border-radius: .4rem;
+}
+
+.card-project .description{
+    margin-bottom: 1.3rem;
+}
