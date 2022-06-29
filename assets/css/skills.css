@@ -1,0 +1,48 @@
+
+.stills-content {
+    padding: 2rem 0;
+}
+
+.card-still{
+    text-align: center;
+}
+.card-still .stills{
+    display: flex;
+   justify-content: space-around;
+}
+
+.stills .stills-item{
+    border:  2px solid rgb(17, 151, 8);
+    border-radius: .4rem;
+    margin: .5rem 1rem;
+    padding: .3rem .5rem;
+    text-align: center;
+    color: rgb(17, 151, 8);
+}
+.stills .social{
+    background-color: rgb(17, 151, 8, 0.8);
+    color: var(--color-white);
+}
+.stills .stills-item img{
+    width: 5rem;
+    height: 5rem;
+    display: block;
+}
+.stills .social img{
+    width: 4rem;
+    height: 5rem;
+    padding: .5rem 1rem;
+}
+.stills .stills-item span{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+/*  cards  */
+.card {
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    background-color: rgba(222, 221, 221, 0.8);
+    color: var(--color-black);
+}

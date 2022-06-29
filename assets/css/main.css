@@ -12,8 +12,18 @@
 
 body{
     font-family: 'Roboto Mono', monospace;
-    
+    background-color: var(--color-black);
+    margin: 0;
+    color: var(--color-white);
 }
+
+/*main*/
+#home, #stills,#colaborate,#contact{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0; 
+}
+
 
 /*   GLOBALS    */
 p{
@@ -25,75 +35,50 @@ p{
     color: var(--color-white);
 }
 .bg-success{
-    background-color: var(--color-primary)!important;
+    background-color: rgba(57, 186, 11, 0.7);
     color: var(--color-white);
+    border: none;
 }
 
-.img{
+img{
     width: 100%;
 }
 .btn-success{
     background-color: var(--color-primary)!important;
-}
-/* HEADER */
-.navbar{
-    background-color: var(--color-black);
-    padding:  1rem;
-    border-end-end-radius:1rem;
-    border-end-start-radius: 1rem;
-}
-.navbar ul{
-    margin-bottom: 0;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    border-radius: 0 .5rem;
+    color: var(--color-white);
+    border: none;
+    cursor: pointer;
 }
 
-/*main*/
-#home, #stills,#colaborate,#contact{
-    min-height: 100vh;    
+.container{
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 1rem;
 }
 
-#home .home-content{
-    min-height: 100vh;
+.title{
+    font-weight: bold;
+    text-transform: uppercase; 
+    text-align: center;   
+}
+
+.card-content {
+    display: grid;
+}
+@media screen and (min-width:1024px) {
+    .card-content{
+        display: grid;
+        grid-template-columns: 50% 1fr ;
+    }
 }
 
 
-.foto-perfil .img{
-    border-radius: 50%;
-    max-height: 50vh;
-    max-width: 50vh;
-}
 /* footer */
 footer{
-    /*height: 3vh;*/
+    padding: .5rem 0;
     background-color: var(--color-black-ligh);
     text-align: center;
-}
-
-/* CARDS */
-.card{
-    background-color: rgba(222, 221, 221, 0.6);
-    color: var(--color-black);
-}
-
-.form-floating{
-    color: var(--color-white-light)!important;
-}
-
-.form-floating .form-control{
-    background-color: var(--color-black-ligh);
-    color: var(--color-white-light);
-}
-
-
-.img-project{
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-
-
-
-/*form -contact*/
-.form-contact{
-    max-width: 400px;
-    margin: 0 auto;
 }

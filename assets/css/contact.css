@@ -1,0 +1,36 @@
+.contact-content{
+    padding: 1rem 0 2rem 0;
+}
+
+/*form -contact*/
+.form-contact{
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+
+.form-group{
+    margin: 10px 0;
+}
+
+.form-control{
+    border: none;
+    background-color: antiquewhite;
+    display: block;
+    width: 90%;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+}
+
+.btn-dark{
+    background-color: var(--color-black)!important;
+    text-decoration: none;
+    padding: .5rem 4rem;
+    border-radius: 0 .5rem;
+    color: var(--color-white);
+    border: none;
+    cursor: pointer;
+}
+
