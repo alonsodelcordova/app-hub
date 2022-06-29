@@ -1,0 +1,23 @@
+
+.stills {
+    padding-top: 2rem;
+}
+
+.card-content {
+    display: grid;
+}
+@media screen and (min-width:1024px) {
+    .card-content{
+        display: grid;
+        grid-template-columns: 50% 1fr ;
+    }
+}
+
+/*  cards  */
+.card {
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    background-color: rgba(222, 221, 221, 0.8);
+    color: var(--color-black);
+}
