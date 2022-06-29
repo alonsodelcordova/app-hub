@@ -1,0 +1,99 @@
+@import url(../fonts/RobotoMono-Light.ttf);
+
+:root{
+    --color-primary: #3F8E00;
+    --color-secondary: #FFA217;
+    --color-info: #2AB090;
+    --color-black: #1B1B1B;
+    --color-black-ligh: rgb(80, 79, 79, 0.6);
+    --color-white: #F5F5F5;
+    --color-white-light: #9C9C9C;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+/*   GLOBALS    */
+p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.bg-dark{
+    background-color: #000!important;
+    color: var(--color-white);
+}
+.bg-success{
+    background-color: var(--color-primary)!important;
+    color: var(--color-white);
+}
+
+.img{
+    width: 100%;
+}
+.btn-success{
+    background-color: var(--color-primary)!important;
+}
+/* HEADER */
+.navbar{
+    background-color: var(--color-black);
+    padding:  1rem;
+    border-end-end-radius:1rem;
+    border-end-start-radius: 1rem;
+}
+.navbar ul{
+    margin-bottom: 0;
+}
+
+/*main*/
+#home, #stills,#colaborate,#contact{
+    min-height: 100vh;    
+}
+
+#home .home-content{
+    min-height: 100vh;
+}
+
+
+.foto-perfil .img{
+    border-radius: 50%;
+    max-height: 50vh;
+    max-width: 50vh;
+}
+/* footer */
+footer{
+    /*height: 3vh;*/
+    background-color: var(--color-black-ligh);
+    text-align: center;
+}
+
+/* CARDS */
+.card{
+    background-color: rgba(222, 221, 221, 0.6);
+    color: var(--color-black);
+}
+
+.form-floating{
+    color: var(--color-white-light)!important;
+}
+
+.form-floating .form-control{
+    background-color: var(--color-black-ligh);
+    color: var(--color-white-light);
+}
+
+
+.img-project{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+
+
+/*form -contact*/
+.form-contact{
+    max-width: 400px;
+    margin: 0 auto;
+}
